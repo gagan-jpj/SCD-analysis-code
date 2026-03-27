@@ -102,7 +102,7 @@ exactly as they appear in Jupyter.
 |---|---|
 | Haemolytic anaemia / Chronic haemolytic anaemia | Haematological |
 | Aplastic crisis / Aplastic Anaemia | Haematological |
-| Vaso-occlusive crisis (VOC) | Pain / Circulatory |
+| Vaso-occlusive crisis (VOC) | Pain / Vascular |
 | Dactylitis (Hand-foot syndrome) | Musculoskeletal |
 | Acute chest syndrome | Pulmonary |
 | Restrictive lung disease | Pulmonary |
