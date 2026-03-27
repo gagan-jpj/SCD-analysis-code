@@ -51,7 +51,7 @@ scd-allofus-pipeline/
 
 Anyone can read the notebooks directly on GitHub — no installation required.
 
-1. Go to: `https://github.com/YOUR-USERNAME/scd-allofus-pipeline`
+1. Go to: https://github.com/gagan-jpj/SCD-analysis-code.git`
 2. Click the `notebooks/` folder
 3. Click any `.ipynb` file — GitHub renders it automatically in the browser
 
