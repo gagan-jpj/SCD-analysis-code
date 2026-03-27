@@ -146,7 +146,6 @@ If you use this pipeline in your research, please cite:
 
 ## Author
 
-**[Your Name]**  
-[Your Institution]  
-[Your Email / ORCID]  
-[Year]
+Gagandeep Kaur   
+King's college London  
+2026
