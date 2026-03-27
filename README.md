@@ -138,9 +138,7 @@ exactly as they appear in Jupyter.
 
 ## Citation
 
-If you use this pipeline in your research, please cite:
-
-> *The "All of Us" Research Program. (2019). NEJM, 381(7), 668–676.*
+(Researchallofus.org, 2026)
 
 ---
 
