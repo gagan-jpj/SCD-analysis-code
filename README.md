@@ -22,7 +22,7 @@ The pipeline covers **476 SCD-diagnosed participants** and extracts:
 |------|----------|-------------|-------------|
 | 1 | `01_EHR_demographics_extraction.ipynb` | Extracts demographic data (age, gender, race, ethnicity) for SCD participants | `SCD_Demographics.csv` |
 | 2 | `02_phenotypic_complications_extraction.ipynb` | Extracts SCD complications, assigns severity categories, analyses Hydroxyurea exposure | `SCD_Demographics_with_Complications.csv`, `SCD_Complication_Severity_Only.csv`, `SCD_Demographics_with_HU.csv` |
-| 3 | `03_lab_genotypic_extraction.ipynb` | Extracts lab measurements, runs Mann-Whitney U tests, performs KMeans clustering | `lab_measurements_wide_with_units.csv`, `ml_ready_latest.csv`, `complication_lab_mwu_results.csv` |
+| 3 | `03_lab_extraction.ipynb` | Extracts lab measurements, runs Mann-Whitney U tests, performs KMeans clustering | `lab_measurements_wide_with_units.csv`, `ml_ready_latest.csv`, `complication_lab_mwu_results.csv` |
 
 > ⚠️ Run notebooks **in order**: 01 → 02 → 03. Each notebook depends on outputs from the previous step.
 
@@ -38,7 +38,7 @@ scd-allofus-pipeline/
 ├── notebooks/
 │   ├── 01_EHR_demographics_extraction.ipynb
 │   ├── 02_phenotypic_complications_extraction.ipynb
-│   └── 03_lab_genotypic_extraction.ipynb
+│   └── 03_lab_extraction.ipynb
 ├── docs/
 │   └── workflow_overview.md
 └── data/
@@ -75,7 +75,7 @@ exactly as they appear in Jupyter.
 3. Open a **Terminal** tab inside Jupyter
 4. Run:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/scd-allofus-pipeline.git
+   git  https://github.com/gagan-jpj/SCD-analysis-code.git`
    ```
 5. Open `01_EHR_demographics_extraction.ipynb` in Jupyter
 6. Select **Python 3** kernel
